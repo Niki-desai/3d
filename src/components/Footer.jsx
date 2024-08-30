@@ -9,10 +9,11 @@ const Footer = () => {
 
       <div className='footer-container'>
         <p>
-          © 2023 <strong>Nikita Desai</strong>. All rights reserved.
+          {/* © 2023 <strong>Nikita Desai</strong>. All rights reserved. */}
+          <strong>Nikita Desai</strong>
         </p>
 
-        <div className='flex gap-3 justify-center items-center'>
+        <div className='flex gap-3 justify-center items-center' rel='noopener noreferrer'>
           {socialLinks.map((link) => (
             <Link key={link.name} to={link.link} target='_blank'>
               <img
