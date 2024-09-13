@@ -224,6 +224,13 @@ export const projects = [
         description: 'Fun library project',
         link: 'https://virtual-bookstore.netlify.app/',
     },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-red',
+        name: 'Machine Coding',
+        description: 'Fun applications and coding',
+        link: 'https://machine-coding-seven.vercel.app/',
+    },
     // {
     //     iconUrl: threads,
     //     theme: 'btn-back-green',
