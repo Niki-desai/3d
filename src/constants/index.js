@@ -206,6 +206,17 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
+        name: 'PERN Stack App',
+        description: `
+        🌟 Tech stack: PERN + TailwindCSS + Daisy UI
+        🚀 Rate Limiting & Bot Detection
+        👌 Global state management with Zustand
+        🐞 Error handling both on the server and client`,
+        link: 'https://pernstack-vzeu.onrender.com/',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
         name: 'MERN Stack Chat App',
         description: 'Created a MERN stack chat application clone for learning purposes to enhance end-to-end development skills and gain comprehensive knowledge of the full-stack process.',
         link: 'https://chatapp-wn5z.onrender.com/',
@@ -229,15 +240,15 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Machine Coding',
         description: 'Fun applications and coding',
-        link: 'https://machine-coding-seven.vercel.app/',
+        link: 'https://machine-coding-mu.vercel.app/',
     },
-    // {
-    //     iconUrl: threads,
-    //     theme: 'btn-back-green',
-    //     name: 'Full Stack Threads Clone',
-    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    //     link: 'https://github.com/adrianhajdin/threads',
-    // },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Stripe Integration',
+        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        link: 'https://github.com/adrianhajdin/threads',
+    },
     // {
     //     iconUrl: car,
     //     theme: 'btn-back-blue',
